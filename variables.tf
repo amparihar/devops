@@ -19,3 +19,15 @@ variable "aws_regions" {
     ohio          = "us-east-2"
   }
 }
+
+variable "source_bucket_arn" {
+  type = string
+}
+
+variable "source_cmk_arn" {
+  type = string
+}
+
+variable "destination_cmk_arn" {
+  type = string
+}
